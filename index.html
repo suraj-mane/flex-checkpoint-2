@@ -1,200 +1,208 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
     <head>
-        <meta charset="UTF-8">
-        <title>Flex | Assignment - Checkpoint 2</title>
+        <title>Flex Assignment-Checkpoint 2</title>
         <link rel="stylesheet" href="assest/stylesheet/style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet">
         <script src="https://kit.fontawesome.com/bcf5c05fae.js" crossorigin="anonymous"></script>
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap" rel="stylesheet"> 
     </head>
-    <body id="top">
+    <body id="tops">
         <header class="header">
-            <div class="container">
-                <nav class="contact-link">
-                    <a href="#"><i class="fab fa-facebook-f"></i></a>
-                    <a href="#"><i class="fab fa-twitter"></i></a>
-                    <a href="#"><i class="fas fa-basketball-ball"></i></a>
-                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                </nav>
-                <div class="navbar flex">
-                    <img class="logo" src="assest/images/logo.png" alt="logo">
-                    <h1 class="brand-name">FLEX</h1>
-                    <nav class="link">
-                        <a class="link-1" href="#">HOME</a>
-                        <a href="#services">SERVICES</a>
-                        <a href="#portfolio">PORTFOLIO</a>
-                        <a href="#team">TEAM</a>
-                        <a href="gallery.html">GALLERY</a>
-                        <a href="#contact">CONTACT</a>
-                    </nav>
-                </div>
-                <div class="title">
-                    <h2 class="title-line">DIGITAL MARKETING</h2>
-                    <hr>
-                    <p class="title-text">MORE VISITORS TO YOUR WEBSITE</p>
-                    <div class="title-btn"><p>LET US DESIGN!</p></div>
-                </div>
+            <div class="navbar flex">
+                <img src="assest/images/logo.png" alt="logo">
+                <h2 class="headline">Flex</h2>
+                <div class="navlink">
+                    <a class="active" href="#">HOME</a>
+                    <a href="#services">SERVICES</a>
+                    <a href="#portfolio">PORTFOLIO</a>
+                    <a href="#team">TEAM</a>
+                    <a href="gallery.html">GALLERY</a>
+                    <a href="#contact">CONTACT</a>
+                </div>        
             </div>
         </header>
-        <main>
+        <div class="hero">
             <div class="container">
-                <div class="point one"></div>
-                <div class="point two"></div>
-                <div class="point three"></div>
+                <div class="contact-link">
+                    <div class="icons">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    </div>
+                    <div class="icons">
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                    <div class="icons">
+                        <a href="#"><i class="fas fa-basketball-ball"></i></a>
+                    </div>
+                    <div class="icons">
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="main-contant">
+                    <h2 class="main-head">DIGITAL MARKETING</h2>
+                    <hr class="main-line">
+                    <p class="main-text">MORE VISITORS TO YOUR WEBSITE</p>
+                    <div class="main-contant-btn">
+                        <p>LET US DESIGN!</p>
+                    </div>
+                </div>
             </div>
-            <section id="services" class="services">
-                <div class="container">
-                    <h2 class="services-title">OUR SERVICES</h2>
-                    <hr class="services-line">
-                    <p class="services-text">we design moblie-first website for you.</p>
-                    <div class="box-icons flex">
-                        <div class="box file-code"><i class="far fa-file-code"></i></div>
-                        <div class="box telegram-plane"><i class="fab fa-telegram-plane"></i></div>
-                        <div class="box university"><i class="fas fa-university"></i></div>
-                        <div class="box flask"><i class="fas fa-flask"></i></div>
+        </div>
+        <div class="point">
+            <div class="points one"></div>
+            <div class="points two"></div>
+            <div class="points three"></div>
+        </div>
+        <div class="services" id="services">
+            <div class="container">
+                <h2 class="service-head">OUR SERVICES</h2>
+                <hr class="service-line">
+                <p class="service-text">WE DESIGN MOBILE-FIRST WEBSITE FOR YOU</p>
+                <div class="service-icons flex">
+                    <div class="box box-one">
+                        <i class="far fa-file-code"></i>
+                    </div>
+                    <div class="box box-two">
+                        <i class="fab fa-telegram-plane"></i>
+                    </div>
+                    <div class="box box-three">
+                        <i class="fas fa-university"></i>
+                    </div>
+                    <div class="box box-four">
+                        <i class="fas fa-flask"></i>
                     </div>
                 </div>
-            </section>
-            <section id="portfolio" class="portfolio">
-                <div class="container">
-                    <h2 class="portfolio-title">OUR PORITFLIO</h2>
-                    <hr class="portfolio-line">
-                    <p class="portfolio-text">AMAZING WORK FOR OUR CLIENTS.</p>
-                    <div class="portofolio-gallery flex wrap">
-                        <div class="photo photo-1">
-                            <img src="assest/images/portfolio/p1.jpg" alt="p1">
-                        </div>
-                        <div class="photo photo-2">
-                            <img src="assest/images/portfolio/p2.jpg" alt="p2">
-                        </div>
-                        <div class="photo photo-3">
-                            <img src="assest/images/portfolio/p7.jpg" alt="p3">
-                        </div>
-                        <div class="photo photo-4">
-                            <img src="assest/images/portfolio/p8.jpg" alt="p4">
-                        </div>
-                        <div class="photo photo-5">
-                            <img src="assest/images/portfolio/p3.jpg" alt="p5">
-                        </div>
-                        <div class="photo photo-6">
-                            <img src="assest/images/portfolio/p4.jpg" alt="p6">
-                        </div>
-                        <div class="photo photo-7">
-                            <img src="assest/images/portfolio/p5.jpg" alt="p7">
-                        </div>
-                        <div class="photo photo-8">
-                            <img src="assest/images/portfolio/p6.jpg" alt="p8">
-                        </div>
+            </div>
+        </div>
+        <div class="portfolio" id="portfolio">
+            <div class="container">
+                <h2 class="portfolio-heading">OUR PORTFOLIO</h2>
+                <hr class="portfolio-line">
+                <p class="portfolio-text">AMAZING WORK FOR OUR CLIENTS</p>
+                <div class="portfolio-img flex">
+                    <div class="photo photo-one">
+                        <img src="assest/images/portfolio/p1.jpg" alt="p1">
+                    </div>
+                    <div class="photo photo-two">
+                        <img src="assest/images/portfolio/p2.jpg" alt="p2">
+                    </div>
+                    <div class="photo photo-three">
+                        <img src="assest/images/portfolio/p7.jpg" alt="p3">
+                    </div>
+                    <div class="photo photo-three">
+                        <img src="assest/images/portfolio/p8.jpg" alt="p4">
+                    </div>
+                    <div class="photo photo-three">
+                        <img src="assest/images/portfolio/p3.jpg" alt="p5">
+                    </div>
+                    <div class="photo photo-three">
+                        <img src="assest/images/portfolio/p4.jpg" alt="p6">
+                    </div>
+                    <div class="photo photo-three">
+                        <img src="assest/images/portfolio/p5.jpg" alt="p7">
+                    </div>
+                    <div class="photo photo-three">
+                        <img src="assest/images/portfolio/p6.jpg" alt="p8">
                     </div>
                 </div>
-            </section>
-            <section id="team" class="team">
-                <div class="container">
-                    <h2 class="team-title">OUR TEAM</h2>
-                    <hr class="team-line">
-                    <p class="team-text">OUR PEOPLE ARE VERY UNITED FOR YOUR</p>
-                    <div class="team-gallery flex">
-                        <div class="col">
-                            <img class="col-img" src="assest/images/member1.jpg" alt="member1">
-                        </div>
-                        <div class="col">
-                            <img class="col-img" src="assest/images/member2.jpg" alt="member2">
-                        </div>
-                        <div class="col">
-                            <img class="col-img" src="assest/images/member3.jpg" alt="member3">
-                        </div>
-                        <div class="col">
-                            <img class="col-img" src="assest/images/member4.jpg" alt="member4">
-                        </div>
+            </div>
+        </div>
+        <div class="team" id="team">
+            <div class="container">
+                <h2 class="team-heading">OUR TEAM</h2>
+                <hr class="team-line">
+                <p class="team-text">OUR PEOPLE ARE VERY UNITED FOR YOUR SUCCESS</p>
+                <div class="team-img flex">
+                    <div class="img img-one">
+                        <img src="assest/images/member1.jpg" alt="member1">
                     </div>
-                    <h2 class="design-title">DESIGN SKILLS</h2>
-                    <p class="design-text">Lorem ipsum dolor sit amet consectetur adipiscing elit</p>
-                    <div class="row flex">
-                        <div class="row-info">
-                            <p class="row-text">The font-family property specifies a list of fonts, from highest priority to lowest.
-                                Font selection does not stop at the first font in the list that is on the user's system.
-                                Rather, font selection is done one character at a time, so that if an available font does not have a glyph for a needed character, the latter fonts are tried. 
-                                However, this doesn't work in Internet Explorer 6 or earlier.
-                                When a font is only available in some styles, variants, or sizes, those properties may also influence which font family is chosen.
-                                Generic font families are a fallback mechanism, a means of preserving some of the style sheet author's intent when none of the specified fonts are available.
-                                Generic family names are keywords and must not be quoted. 
-                                A generic font family should be the last item in the list of font family names. 
-                                The following keywords are defined
-                             </p>
-                        </div>
-                        <div class="progressbar">
-                            <div class="progressba">
-                                <div class="photoshop-1">PHOTOSHOP 90%</div>
-                            </div>
-                            <div class="progressba">
-                                <div class="photoshop-2">HTML CSS 80%</div>
-                            </div>
-                            <div class="progressba">
-                                <div class="photoshop-3">DEVELOPMENT 70%</div>
-                            </div>
-                            <div class="progressba">
-                                <div class="photoshop-4">MARKETING 80%</div>
-                            </div>
-                        </div>
+                    <div class="img img-two">
+                        <img src="assest/images/member2.jpg" alt="member1">
+                    </div>
+                    <div class="img img-three">
+                        <img src="assest/images/member3.jpg" alt="member1">
+                    </div>
+                    <div class="img img-four">
+                        <img src="assest/images/member4.jpg" alt="member1">
                     </div>
                 </div>
-            </section>
-            <section id="contact" class="contact">
-                <div class="container">
-                    <h2 class="contact-title">CONTACT</h2>
-                    <hr class="contact-line">
-                    <p class="contact-text">SEND A MESSAGE TO US</p>
-                    <div class="contact-map">
-                        <img class="contact-img" src="assest/images/map.png" alt="map">
+            </div>
+        </div>
+        <div class="design skill">
+            <div class="container">
+                <h2 class="design-heading">DESIGN SKILLS</h2>
+                <p class="design-text">Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+                <div class="design-box flex">
+                    <div class="design-box-text">
+                        <p class="box-text-one">Allquam fauclbus in dolor sed vestlbulum.
+                           sed adlpiscing conubia nostra, per inceptos himenaeos.
+                           Nulla nunc dui, tristique in semper vel, congue sed ligula.Pellentesque pellentesque tempor tellus eget hendrerit.
+                        </p>
+                        <p>Donec <span class="world">TOO CSS</span> volutpat nibh sit amet libero ornare non laoreet arcu luctus. Donec id arcu quis mauris euismod placerat sit amet ut metus. Sed imperdiet fringilla sem eget euismod. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Pellentesque adipiscing, neque ut pulvinar tincidunt, est sem euismod odio, eu ullamcorper turpis nisl sit amet velit. Nullam vitae nibh odio, non scelerisque nibh. Vestibulum ut est augue, in varius purus. Proin dictum lobortis justo at pretium. Nunc malesuada ante sit amet purus ornare pulvinar. Donec suscipit</p>
                     </div>
-                    <div class="contact-form flex">
-                        <div class="contact-details">
-                            <p class="text one-info">Flex Template is based on boostrap v3.1.1 and it is provided by templateMo for free of charge, slider images are form unsplash website.
-                               Thank you for visiting please tell your frined about our templateMO website.
-                            </p>
-                            <p class="text two-info">Hic, suscipit, preaesentium earm quod ea distincto impedit ulla, deseruat minus-dolore quibusdam quis saepe aliquam dorloribus volupatibus eum excepturi. 
-                                Aencan semper erat neque nunc et scelrisque nunc, in adiping magna.
-                            </p>
-                            <p class="text three-info">Duis ullamcorpr totor tellus, ut diam libero, ultricies nom auque a, mollis congue risus fuse aquam eget nisi tuctus imperdiet.
-                               consectetar quod at aperiam corporis totam.
-                            </p>
-                            <span class="text">
-                            <p class="four-info">Phone: 033-033-0660</p>
-                            <p>Email:<span class="five-info">Info@company.com</span></p>
-                            <p class="six-info">Address: 880 De Best Studio, Fork Street, San Francisco.</p>
-                            </span>  
+                    <div class="progress-bar">
+                        <div class="bigbar">
+                            <div class="bar-one">PHOTOSHOP 90%</div>
                         </div>
-                        <div class="form">
-                            <div class="form-one">
-                                <input type="text" value="Your Name">
-                            </div>
-                            <div class="form-two">
-                                <input type="text" value="Your Email">
-                            </div>
-                            <div class="form-three">
-                                <input type="text" value="Subject">
-                            </div>
-                            <div class="form-four">
-                                <input class="four-4" type="text" value="Message">
-                            </div>
-                            <div>
-                                <input class="form-five" type="submit" value="SEND MESSAGE">
-                            </div>
+                        <div class="bigbar">
+                            <div class="bar-two">HTML-CSS 80%</div>
+                        </div>
+                        <div class="bigbar">
+                            <div class="bar-three">DEVELOPMENT 70%</div>
+                        </div>
+                        <div class="bigbar">
+                            <div class="bar-four">MARKETING 80%</div>
                         </div>
                     </div>
                 </div>
-            </section>
-        </main>
-        <footer class="footer">
-            <div class="container flex">
-                <div class="footer-text">
-                    <p>Copyright<small>&copy;</small>2020 company Name,Design TemplateMO</p>
+            </div>
+        </div>
+        <div class="contact" id="contact">
+            <div class="container">
+                <h2 class="contact-heading">CONTACT</h2>
+                <hr class="contact-line">
+                <p class="contact-text">SEND A MESSAGE TO US</p>
+                <div class="contact-map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3375.8976157303823!2d76.35228968013804!3d32.206989390147605!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391b530e24726e0d%3A0x71ff0cae0784712d!2sAltCampus%20Services%20Pvt.%20Ltd!5e0!3m2!1sen!2sin!4v1618214092107!5m2!1sen!2sin" width="1200" height="350" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                 </div>
-                <div class="footer-back">
-                    <a href="#top">BACK TO TOP</a>
+                <div class="contact-info flex">
+                    <div class="info">
+                        <p class="contact-info-text">
+                            Flex template is based on Bootstrap v3.1.1 and it is provided by <span class="p0">template<span class="p1">mo</span></span> for free of charge.
+                            slider images and portfolio images are form <span class="p2">Unsplash</span> website. Thank you for visting. please tell your friends about our <span class="p3">templateMo website.</span>
+                        </p>
+                        <p class="contact-info-text">
+                            Donec id arcu quis mauris euismod placerat sit amet ut metus. Sed imperdiet fringilla sem eget euismod. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Pellentesque adipiscing, neque ut pulvinar tincidunt, est sem euismod odio, eu ullamcorper turpis nisl sit amet velit. Nullam vitae nibh odio, non scelerisque nibh.  
+                        </p>
+                        <p class="contact-info-text">
+                            Nulla nunc dui, tristique in semper vel, congue sed ligula.Pellentesque pellentesque tempor tellus eget hendrerit.Vestibulum ut est augue, in varius purus.
+                        </p>
+                    </div>
+                    <div class="form">
+                        <div class="inputform">
+                            <input class="name" type="text" value="Your Name">
+                        </div>
+                        <div class="inputform">
+                            <input class="email" type="text" value="Your Email">
+                        </div>
+                        <div class="inputform">
+                            <input class="subject" type="text" value="Subject">
+                        </div>
+                        <div class="inputform">
+                            <input class="message" type="text" value="Message">
+                        </div>
+                        <div class="form-btn">
+                            <p>SEND MESSAGE</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="container">
+                <div class="footer flex">
+                    <p class="footer-name">Copyright <small>&copy;</small>2020 Company Name. design: TemplateMo</p>
+                    <p class="footer-btn"><a href="#tops">BACK TO TOP</a></p>
                 </div>
             </div>
         </footer>
